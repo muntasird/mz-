@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  *COMMON CSS STARTS HERE*  */
+:root{
+    --primaryfonts:'Ubuntu', sans-serif;
+    --secondoryfonts: 'Abril Fatface', cursive;
+    --thirdfonts:'Open Sans', sans-serif;
+    --primarycolor:#0f2f44;
+    --secondcolor:#ffc712;
+    --thirdcolor:#fff9e6;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+/* **body{
+    font-family: var(--primaryfonts); **/
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* *COMMON CSS ENDS HERE  * */
+
+/*  *HEADING OF THE WEBSITE BIZENCY STARTS HERE* */
+
+.welcome,
+.opening{
+    width: 50%;
+    font-family: var(--primaryfonts);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fefefe;
+
+    
+}
+.opening{
+    text-align: right;
+}
+
+header{
+    background-color: var(--primarycolor);
+    padding: 18px 0px 19px 0px;
+}
+
+
+/*  *HEADING OF THE WEBSITE BIZENCY ENDS   HERE* */
+
+
+/* *NAVBAR STARTS HERE* */
+
+nav .logo{
+    width: 40%;
+}
+nav .menu {
+    width: 60%;
+}
+nav .menu ul li a{
+    padding: 40px 20px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #222;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li:hover a{
+    background-color: var(--thirdcolor);
+    color: var(--secondcolor);
+    
+} 
+nav .menu ul li span{
+    border: 1px solid #999999;
+    border-radius: 50%;
+    padding: 5px;
+    color: #999999;
+    width: 40px;
+    height: 40px;
+    line-height: 80px;
+}
+nav .row{
+    align-items: center;
+}
+
+/* *NAVBAR ENDS   HERE* */
+
+/* *YOUR SUCCESS STARTS HERE* */
+
+#banner{
+    background-image: url(./Banner.png);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .success_txt{
+    width: 40%;
+}
+#banner .row{
+    height: 600px;
+}
+#banner .success_txt h2{
+    font-family: var(--primaryfonts);
+    font-weight: 300;
+    font-size: 50px;
+    color:#0f2f44;
+}
+#banner .success_txt h3{
+    font-size: 32px;
+    font-family: var(--primaryfonts);
+    font-weight: 400;
+    color: #8484bf;
+    letter-spacing: 10px;
+}
+#banner .success_txt p{
+    margin: 30px 0;
+    font-family: var(--thirdfonts);
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+}
+#banner .success_txt h1{
+    font-size: 80px;
+    line-height: 70px;
+    font-weight: 400px;
+    color:#0f2f44;
+    font-family: var(--secondoryfonts) !important;
+
+}
+
+#banner .success_txt .vedio{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+#banner .success_txt .explore{
+    margin-right: 18px;
+    color: #ffffff;
+    background-color: #8484bf;
+    padding: 12px 22px;
+    width: 21px;
+    border-radius: 10px;
+}
+
+/* *YOUR SUCCESS ENDAS  HERE* */
+/* *HEADING STARTS HERE* */
+.heading{
+    text-align: center;
+    color: var(--primarycolor);
+}
+/* *HEADING ENDS   HERE* */
+
+/* *ABOUT US STARTS HERE* */
+#about-us .about-ustxt .heading{
+    text-align: left;
+}
+#about-us .about-ustxt{
+    width: 60%;
+    margin-top: 100px;
+    margin-bottom: 50px !important;
+}
+#about-us .about-usimg{
+    margin-top: 100px;
+    width: 40%;
+}
+#about-us .about-ustxt .heading p{
+    font-family: var(--primaryfonts);
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--primarycolor);
+}
+#about-us .about-ustxt p{
+    font-size: 16px;
+    font-family: var(--thirdfonts);
+    color: var(--primarycolor);
+    line-height: 20px;
+    font-weight: 400;
+}
+#about-us .about-ustxt .heading h2{
+    font-family: var(--secondoryfonts);
+    font-weight:400;
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: var(--primarycolor);
+}
+#about-us .about-ustxt ul li{
+    font-family: var(--thirdfonts);
+
+    margin: 30px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primarycolor);
+}
+#about-us .about-ustxt ul li:last-child{
+    margin-bottom:  34px;
+}
+#about-us .about-ustxt a:hover{
+    background-color: var(--secondcolor);
+    box-shadow: none;
+
+}
+#about-us .about-ustxt a{
+    padding: 15px 22px;
+    margin-top: 80px;
+    border-radius: 10px;
+    color: var(--primarycolor);
+    font-size: 20px;
+    margin-right:20px;
+    font-weight: 300px;
+    font-family: var(--primaryfonts);
+    transition: .5s;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* *ABOUT US ENDS   HERE* */
+
+/* *SKILLS SECTION STARTS HERE* */
+
+#skills .skills-txt {
+    margin-bottom: 50px;
+}
+#skills .skills-txt ,
+#skills .skills-img{
+    width: 50%;
+    padding-top: 100px;
+}
+#skills .skills-img img{
+    width: 100%;
+
+}
+#skills .skills-txt .heading p{
+    font-family: var(--primaryfonts);
+    color: var(--primarycolor);
+    font-size: 14px;
+    font-weight: 300;
+
+}
+#skills .skills-txt .heading h2{
+    font-size: 32px;
+    font-family: var(--secondoryfonts);
+    color: var(--primarycolor);
+    font-weight: 400;
+}
+#skills .skills-txt .heading{
+    text-align: right;
+}
+#skills .skills-txt p{
+    text-align: right;
+    font-weight: 400;
+    font-family: var(--thirdfonts);
+    color:var(--primarycolor);
+    font-size: 16px;
+    margin-top: 30px;
+}
+#skills .skills-txt .pogress{
+    text-align: right;
+    margin-top: 10px;
+    
+}
+/* *SKILLS SECTION STARTS HERE* */
+
+
+/* *our serivice starts here* */
+/* *our serivice starts here* */ 
+ 
+/* PORTFOLIO SECTION STARTS HERE */
+#portfolio{
+    padding: 60px 0px;
+}
+#portfolio .portfolio-slide{
+    width: calc(33.33% - 60px);
+    margin: 0px 30px;
+    outline:1px solid red
+}
+#portfolio .portfolio-slide img{
+    width: 100%;
+    width: 100%;
+} 
+
+/* PORTFOLIO SECTION STARTS HERE */
+
